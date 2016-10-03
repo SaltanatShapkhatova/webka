@@ -1,0 +1,88 @@
+*{/*for all, iconfinder, sprite social png, fiat ui colors*/
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	box-sizing: border-box;
+	border: none;
+	border: 1px solid black;
+	padding-left: 0.7em;
+	font-size: 2em;
+	width: 300px;
+	height: 100px;
+	background: : url(link to img); /*(no repeat 90%)*/
+	background-repeat: no-repeat;
+}
+
+body{
+	font: 100%/1.6 'Georgia';
+	padding-top: 100px;
+	text-align: center;
+}
+
+input: focus{
+	background: none;
+}
+
+button{
+	background: : url(link to img); /*(no repeat 90%)*/
+	width: 200px;
+	height: 40px;
+	/*background-size: 100px;*/
+}
+
+.socials{ /* tochk for class*/
+	width: 700px;
+	display: block; /*ili display ili margin on perevernul osi kartinki*/
+	margin: : 0 auto;
+	height: 98px;
+}
+
+footer a{
+	/*margin-right: -6px;*/
+	width: 100px;
+	height: 98px;
+	display: inline-block;
+}
+
+/*footer{
+	font-size: 0;
+}*/  /*ubiraet otstupy ot display: inline - block*/
+
+
+footer .facebook{
+	background: url(../images/socials.png) no-repeat 0px -98px;
+}
+
+footer .twitter{
+	background: url(../images/socials.png) no-repeat -100px -98px; 
+}
+
+footer .youtube{
+	background: url(../images/socials.png) no-repeat -200px -98px
+}
+
+footer .instagram{
+	background: url(../images/socials.png) no-repeat -300px -98px
+}
+
+footer .in{
+	background: url(../images/socials.png) no-repeat -400px -98px
+}
+
+footer .tumblr{
+	background: url(../images/socials.png) no-repeat -500px -98px
+}
+
+footer .googleplus{
+	background: url(../images/socials.png) no-repeat -600px -98px
+}
+
+footer .facebook: hover{
+	background: url(../images/socials.png) no-repeat 0px 0px;
+} 
+
+footer .twitter: hover{
+	background: url(../images/socials.png) no-repeat -100px 0px;
+}

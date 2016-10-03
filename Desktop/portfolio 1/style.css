@@ -1,0 +1,157 @@
+body{
+	background-image:url("images/b1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'URW Gothic L', sans-serif;
+	font-weight: 300; 
+    background-size: cover;
+}
+
+nav {
+	text-align: center;
+	background-color: #333;
+}
+
+.nav a{
+		font-family: 'Gothic';
+		font-size: 30px;
+		position: relative;
+		display: inline;
+		color: white;
+		text-decoration: none;
+	    overflow: hidden;
+	    padding: 100px;
+}
+
+nav: hover > a{
+	background-color: yellow;
+}
+
+h1{
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'URW Gothic L', fantasy;
+}
+
+h2{
+	color: black;
+	font-size: 2em;	
+	text-align: center;
+	font-family: 'URW Gothic L', fantasy
+}
+
+.brdr{
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 50px;
+	margin-top: 115px;
+	margin-left: 70px;
+	margin-right: 600px;
+}
+
+.hobbies{
+	display:flex;
+	width: 100%;
+}
+
+.brdr_h{
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	margin-left: 5px;
+	margin-right:60px;
+}
+
+.brdr_c{
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 50px;
+	margin-top: 15px;
+	margin-left: 70px;
+	margin-right: 600px;
+}
+
+p{
+	color: white;
+	font-size: 40px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.imgs_hob1 img{
+	margin-top: 45px;
+	margin-right: 23%; 
+    margin-left: 30%;
+    border-radius: 5px;
+    transition: transform ease-in-out 0.2s;
+}
+
+.imgs_hob2 img{
+	margin-top: 45px;
+	margin-right: 23%; 
+    margin-left: 25%;
+    border-radius: 5px;
+    transition: transform ease-in-out 0.5s;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+} 
+
+img:hover{
+	transform:scale(2.5);
+}
+
+.main3{
+display: inline;
+margin-right: 500px;
+margin-left: 500px;
+margin-top: 100px;
+margin-bottom: 40px;
+ 
+font-family: tahoma;
+display: inline-block;
+font-size: 1em;
+text-align: center;
+}
+
+.main3 h2{
+  text-align: center;
+  font-size: 100%;
+  margin-top: 20px;
+}
+.container{
+display: block;
+box-sizing: border-box;
+}
+
+.main3 button{
+margin-top: 1em;
+font-family: 'loraitalic';
+font-size: 1em;
+outline: none;
+cursor: pointer;
+transition: background ease 0.5s;
+border-bottom: 1px solid #777;
+margin-bottom: 20px;
+
+}
+.main3 button: hover{
+background: red;
+}
+.main3 input{
+font-family: 'loraregular';
+font-size: 1em;
+}
+.main3 input: focus{
+  background: #ecf0f1;
+outline: none;
+border: none;
+}
+.main3 textarea{
+font-family: 'loraregular';
+font-size: 1em;
+}
