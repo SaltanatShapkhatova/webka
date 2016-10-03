@@ -1,0 +1,76 @@
+$font-fam: 'URW Gothic L', sans-serif;
+
+body{
+	font-family: $font-fam;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 133px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.loc{
+	display:flex;
+	width: 100%;
+}
+
+.left{   
+	margin-right: 35%; 
+}
+
+.right{
+    margin-top: 100px;
+}
+
+.nav1 a{
+    margin-left: 73%;
+	margin-top: 100px;
+	position: relative;
+	display: flex;
+	flex-direction:row;
+	color: black;
+	text-decoration: none;
+    text-align: center;
+}
+
+p{
+	font-family: $font-fam;
+	font-size: 20px;
+	color: #333;
+}
+
+.text{
+	margin-right: 40%;
+}
+
+footer{
+	background-color: D4D0BC;
+	width: 100%;
+	height:100px;
+}
+
+.soc{
+	display: inline;
+}
