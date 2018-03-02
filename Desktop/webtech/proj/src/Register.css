@@ -1,0 +1,21 @@
+#btnreg{
+
+	margin-top: 30px;
+	width: 90px;
+	margin-left: 140px;
+
+
+
+}
+
+.ui.secondary.segment {
+   background: white;
+     color: rgba(0, 0, 0, 0.6); 
+}
+
+form{
+	border-radius: 5px;
+	width: 	230px;
+	border-color: 	#54C8FF;	
+	border-style: 	solid;
+}

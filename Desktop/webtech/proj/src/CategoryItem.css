@@ -1,0 +1,11 @@
+.cards{
+  margin-left: 110px;
+  display: inline-block;
+  width: 250px;
+}
+
+.name{
+  font-size: 20px;
+  font-style: bold;
+  color: black;
+}
